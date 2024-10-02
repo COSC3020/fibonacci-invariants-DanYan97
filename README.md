@@ -27,3 +27,13 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+At the begining of the recursive call, the array "memo" stored the Fibonaci numbers 
+correctly for all indices that <=n-1, this make sure that the the Fibo values of n-1 were computed.
+Then, when calculating the f(n), the previous Fibo numbers are avaliable in the memo arry.
+
+“I certify that I have listed all sources used to complete this exercise,
+ including the use of any Large Language Models. 
+ All of the work is my own, except where stated otherwise. 
+ I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, 
+ charges may be filed against me without prior notice.” --Doris Yan
